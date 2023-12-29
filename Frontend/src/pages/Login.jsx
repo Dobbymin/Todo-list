@@ -1,5 +1,11 @@
-const Login = () => {
-    return <div>Login</div>;
+import LoginTemplate from '../components/template/LoginTemplate';
+
+const LoginPage = () => {
+    return (
+        <>
+            <LoginTemplate />
+        </>
+    );
 };
 
-export default Login;
+export default LoginPage;
