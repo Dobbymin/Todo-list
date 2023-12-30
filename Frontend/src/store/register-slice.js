@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-export const AuthSlice = createSlice({
-    name: 'auth-slice',
+export const registerSlice = createSlice({
+    name: 'Register-slice',
     initialState: {
         signin: {
             status: null,
@@ -22,4 +22,6 @@ export const AuthSlice = createSlice({
     },
 });
 
-export const AuthActions = AuthSlice.actions;
+export const registerActions = registerSlice.actions;
+
+export default registerSlice;
