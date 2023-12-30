@@ -27,4 +27,6 @@ demo
 
 package-lock.json
 
-# .env
+.env
+
+폴더구조.md

@@ -1,5 +1,11 @@
-const Register = () => {
-    return <div>Register</div>;
+import RegisterTemplate from '../components/template/RegisterTemplate';
+
+const RegisterPage = () => {
+    return (
+        <>
+            <RegisterTemplate />
+        </>
+    );
 };
 
-export default Register;
+export default RegisterPage;
